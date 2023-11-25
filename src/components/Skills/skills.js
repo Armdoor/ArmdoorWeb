@@ -7,7 +7,7 @@ const Skills = () => {
   return (
       <section id='skill'>
           <span className='title'> What I do?</span>
-          <span className='title'> Your Mom </span>
+          <span className='titleDis'> Your Mom </span>
           <div className='bars'>
               <div className='bar'>
                   <img src={ui} alt='Ui' className='barImg' />

@@ -17,3 +17,37 @@
     padding-top: 3rem;
     margin-bottom: 1.5rem;
 }
+
+.titleDis{
+    font-weight: 400;
+    font-size: 0.9rem;
+    max-width: 51rem;
+    padding: 0 2re;
+}
+
+.bars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.bar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.barImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.barText{
+    font-size: 1rem;
+    font-weight: 200;
+}
