@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
-import logo from './as.png'
-import contact from './c2.png'
+import logo from './lof.png'
+import contact from './con.png'
 import { Link } from 'react-scroll'
 
 

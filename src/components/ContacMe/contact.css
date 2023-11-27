@@ -1,4 +1,5 @@
 #main{
+    height: calc(60vh - 4rem);
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -52,36 +53,3 @@
     border-radius: 2rem;
 }
 
-/* .name{
-    padding: 12px 20px;
-    font-size: 1rem;
-    border-width: calc(var(--border-width) * 1px);
-    border-style: solid;
-    border-color: var(--accent);
-    border-radius: calc(var(--border-radius) * 1px);
-    text-align: center;
-    outline: transparent;
-    width: 100%;
-    
-}
-
-.email{
-    padding-top: 1rem;
-    padding: 12px 20px;
-    font-size: 1rem;
-    border-width: calc(var(--border-width) * 1px);
-    border-style: solid;
-    border-color: var(--accent);
-    border-radius: calc(var(--border-radius) * 1px);
-    text-align: center;
-    outline: transparent;
-    width: 100%;
-    
-}
-
-.text{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 100;
-    font-size: 1.2rem;
-} */
