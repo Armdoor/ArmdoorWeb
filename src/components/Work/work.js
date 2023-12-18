@@ -6,7 +6,7 @@ import git from './git.png'
 import link from './link.jpeg'
 const Work = () => {
   return (
-      <section id="main">
+      <section id="workmain">
           <span className='title'> Work </span>
           <span className='titleDis'> My Projects </span>
           <div className='projects'>

@@ -62,3 +62,17 @@
     margin: .4rem;
 }
 
+@media (max-width: 640px) {
+    .desktopMenu {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

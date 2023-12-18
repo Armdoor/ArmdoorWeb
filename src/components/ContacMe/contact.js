@@ -2,7 +2,8 @@
 import React, { useRef } from 'react';
 import './contact.css'
 import emailjs from '@emailjs/browser';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const form = useRef() ;
@@ -12,9 +13,29 @@ const Contact = () => {
 
     emailjs.sendForm('service_o5h682a', 'template_y9byt1q', form.current, '5VLrurHOUpdITKMNn')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
+        toast.success('Message sent you bozo!', {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          });
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
+        toast.error('Couldnt send the message you bozo!', {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          });
       });
   };
 
@@ -28,7 +49,19 @@ const Contact = () => {
               <textarea className='msg' placeholder='Message' rows={5} name='message' /> 
               <button className='subBtn' type='submit' value='Send'> Submit
               </button>
-          </form>
+      </form>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        />
     </div>
   )
 }
