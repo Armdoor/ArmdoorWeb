@@ -1,9 +1,9 @@
 import React from 'react'
 import './work.css'
-import apple from './apple.jpg'
-import res from './res.jpeg'
+import apple from './apple.png'
+import res from './res.png'
 import git from './git.png'
-import link from './link.jpeg'
+import link from './link.png'
 const Work = () => {
   return (
       <section id="workmain">
@@ -20,9 +20,6 @@ const Work = () => {
             <a href="https://www.linkedin.com/in/akshit-sanoria/">
                 <button className='projectBtn'> <img src={link} alt='linkedin' className='lWork' /></button>
             </a>
-            
-            <button className='projectBtn'> <img src='' alt='' className='' /></button>
-            <button className='projectBtn'> <img src='' alt='' className=''/></button>
           </div>
       </section>
   )
