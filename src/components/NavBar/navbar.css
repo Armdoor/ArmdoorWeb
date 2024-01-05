@@ -1,20 +1,21 @@
 .navbar{
-    background: rgb(30, 30, 30);
-    height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 55px;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 3;
+    z-index: 1;
+    
+    
 }
 
 .navbar:hover{
-    background: rgb(40, 40, 40);
+    background: transparent;
     border-radius: 0.5rem;
 }
 

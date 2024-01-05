@@ -4,10 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    background-size: cover;
 }
 
 body{
-    background: rgb(30, 30, 30);
+    background: #5c5d6131;;
     color: white;
     overflow: hidden;
     overflow-y: scroll;
